@@ -1,0 +1,82 @@
+body{
+    margin: auto;
+    max-width: 960px;
+    background-color: linen;
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 120px;
+}
+
+
+.headerL {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 30px;
+    margin-bottom:30px ;
+}
+
+.title {
+    font-family:'Oswald';
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.headerTitle{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.navBar{
+    display: flex;
+    align-items: center;
+    
+
+}
+.navBar1 {
+    display: inline-flex;
+    gap: 3px;
+    margin-left:5px;  
+}
+.navBar2 {
+    display: inline-flex;
+    gap: 3px; 
+}
+
+h1 {
+    font-size: xxx-large;
+    font-weight: bold;
+}
+
+.cake :first-child{
+    width: 960px;
+}
+div > header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.copy {
+    margin-top: 30px;
+    font-size: larger;
+    color: grey;
+}
+
+.copy :first-child{
+    text-indent: 2em;
+    
+}
+.copy :last-child{
+    text-indent: 2em;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.copy :nth-last-child(2){
+    text-indent: 2em;
+    margin-top: 20px;
+}
